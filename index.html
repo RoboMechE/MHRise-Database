@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10.0, minimum-scale=0.25, user-scalable=yes"/>
+  <title>MHR-Monster Database</title>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var query = window.location.search;
+      document.getElementById("monFrame").src = "https://script.google.com/macros/s/AKfycbz1dg1tipDE3EIjedZ1vZLop5xfJQIjuOh930LR2mclNT8Zc77pxkfy73C8tT_zfgas/exec" + query;
+
+      var uri = window.location.toString();
+      if (uri.indexOf("?") > 0) {
+        var clean_uri = uri.substring(0, uri.indexOf("?"));
+        window.history.replaceState(null, document.title, clean_uri);
+      }
+
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <iframe id="monFrame" src="https://script.google.com/macros/s/AKfycbz1dg1tipDE3EIjedZ1vZLop5xfJQIjuOh930LR2mclNT8Zc77pxkfy73C8tT_zfgas/exec"
+    style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+  </iframe>
+
+</body>
+
+</html>
