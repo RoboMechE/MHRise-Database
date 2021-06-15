@@ -8,4 +8,5 @@ Follow this link for HZV, Status and Quest Data: (calculates thresholds for ques
 # Acknowledgements
 **Ando, AsteriskAmpersand, Dave uRrr, Deathcream, dtlnor, Silvris and the MH Modding Community at large** - for their help, info and tooling\
 **wwylele / MHRice** - for zone chart images, and initial structure
-+ [mhrice](https://github.com/wwylele/mhrice)
++ [MHRice](https://github.com/wwylele/mhrice)
++ [Weapon Data](https://bit.ly/MHRWeaponAttackTables) - Deathcream
